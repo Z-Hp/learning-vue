@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>vue 3 course</title>
+    <script src="https://unpkg.com/vue@3.0.2"></script>
+
+</head>
+<body>
+   <div id="app">
+    <p>
+        {{title}} - {{author}} - {{age}}
+    </p>
+    <button v-on:click="age++">+</button>
+    <button v-on:click="age--">-</button>
+
+    <div @click="changeTitle('sag velgard')">chane title</div>
+   </div>
+    <script src="app.js"></script>
+</body>
+</html>
